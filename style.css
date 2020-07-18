@@ -7,7 +7,7 @@ body{
 }
 
 #particles-js{
-    background-image:url("images/stars-space-landscape.jpg") ;
+    background-image:url("/images/stars-space-landscape.jpg") ;
     background-repeat: no-repeat ;
     background-attachment: fixed;
     background-size: cover;
@@ -40,17 +40,24 @@ h3{
 }
 .button{
     text-align: center;
+    
    
     
 }
 .bg-color{
-    background-color: rgb(61, 237, 131);
+    background-color: rgb(29, 198, 100);
 }
 .btn{
  
     padding: 5px 50px;
-    
+    color:whitesmoke;
 } 
+
+.button :hover{
+    background-color: rgb(15, 189, 81);
+    color:whitesmoke;
+}
+
 @media only screen and (max-width: 768px){
     .btn{
         width: 100%;
