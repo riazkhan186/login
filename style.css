@@ -7,7 +7,7 @@ body{
 }
 
 #particles-js{
-    background-image:url("/images/stars-space-landscape.jpg") ;
+    background-image:url("images/stars-space-landscape.jpg") ;
     background-repeat: no-repeat ;
     background-attachment: fixed;
     background-size: cover;
